@@ -10,8 +10,9 @@
 
     <modules>
         <module>StudentManagerManagement</module>
-        <module>StudentRegistrationManagement</module>
         <module>StudentManagement</module>
+     <module>StudentRegistrationManagement</module>
+
     </modules>
 
     <properties>
