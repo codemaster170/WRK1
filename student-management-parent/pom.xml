@@ -9,8 +9,11 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>StudentManagerManagement</module>
+
         <module>StudentManagement</module>
+
+        <module>StudentManagerManagement</module>
+        
      <module>StudentRegistrationManagement</module>
 
     </modules>
