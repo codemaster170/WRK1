@@ -58,7 +58,6 @@ class StudentRegistrationTest {
         assertNotNull(registration.maleButton.getActionListeners());
         assertNotNull(registration.femaleButton.getActionListeners());
         assertNotNull(registration.studentComboBox.getActionListeners());
-
     }
     @Test
     public void testStudentRegistrationOutput() {
@@ -71,10 +70,10 @@ class StudentRegistrationTest {
         registration.subjectField.setText("Mathematics");
         registration.maleButton.setSelected(true);
 
-    registration.dateChooser.setDate(java.util.Date.from(java.time.Instant.now()));
+        registration.dateChooser.setDate(java.util.Date.from(java.time.Instant.now()));
 
 
-    String expectedOutput = "Name: Farah\nRegistration No: 123456/BIT\nCourse: Computer Science\nSubject: Mathematics\nGender: Male\nDate of Birth: " + registration.dateChooser.getDate().toString();
+        String expectedOutput = "Name: Farah\nRegistration No: 123456/BIT\nCourse: Computer Science\nSubject: Mathematics\nGender: Male\nDate of Birth: " + registration.dateChooser.getDate().toString();
 
 
         String actualOutput = "Name: " + registration.nameField.getText() + "\n" +
@@ -84,8 +83,9 @@ class StudentRegistrationTest {
                 "Gender: " + (registration.maleButton.isSelected() ? "Male" : "Female") + "\n" +
                 "Date of Birth: " + registration.dateChooser.getDate().toString();
 
-    assertLinesMatch(expectedOutput.lines(), actualOutput.lines());
-}
+        assertLinesMatch(expectedOutput.lines(), actualOutput.lines());
+    }
 
 
 }
+
