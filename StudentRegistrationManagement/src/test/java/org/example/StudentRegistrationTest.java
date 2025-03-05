@@ -9,6 +9,13 @@ class StudentRegistrationTest {
     @org.junit.jupiter.api.Test
 
     public void StudentRegistration() {
+
+  @BeforeAll
+    public static void setUp() {
+        System.setProperty("java.awt.headless", "true");
+    }
+
+
         StudentRegistration registration = new StudentRegistration();
 
         assertNotNull(registration.nameField);

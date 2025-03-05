@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.StudentRegistrationTest" time="0.932" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.StudentRegistrationTest" time="0.697" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="sun.awt.enableExtraMouseButtons" value="true"/>
-    <property name="java.class.path" value="C:\Users\yousu\OneDrive\Desktop\WRK1\StudentRegistrationManagement\target\test-classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentRegistrationManagement\target\classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagement\target\classes;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\yousu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\yousu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\yousu\.m2\repository\com\jtattoo\JTattoo\1.6.13\JTattoo-1.6.13.jar;C:\Users\yousu\.m2\repository\com\toedter\jcalendar\1.4\jcalendar-1.4.jar;"/>
+    <property name="java.class.path" value="C:\Users\yousu\OneDrive\Desktop\WRK1\StudentRegistrationManagement\target\test-classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentRegistrationManagement\target\classes;C:\Users\yousu\.m2\repository\org\example\StudentManagerManagement\1.0-SNAPSHOT\StudentManagerManagement-1.0-SNAPSHOT.jar;C:\Users\yousu\.m2\repository\org\example\StudentManagement\1.0-SNAPSHOT\StudentManagement-1.0-SNAPSHOT.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\yousu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\yousu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\yousu\.m2\repository\com\jtattoo\JTattoo\1.6.13\JTattoo-1.6.13.jar;C:\Users\yousu\.m2\repository\com\toedter\jcalendar\1.4\jcalendar-1.4.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\yousu\AppData\Local\Temp\surefire5597269491079130731\surefirebooter-20250305145811609_9.jar C:\Users\yousu\AppData\Local\Temp\surefire5597269491079130731 2025-03-05T14-58-07_560-jvmRun1 surefire-20250305145811609_7tmp surefire_2-20250305145811609_8tmp"/>
+    <property name="sun.java.command" value="C:\Users\yousu\AppData\Local\Temp\surefire5463247098655336258\surefirebooter-20250305185437770_3.jar C:\Users\yousu\AppData\Local\Temp\surefire5463247098655336258 2025-03-05T18-54-37_419-jvmRun1 surefire-20250305185437770_1tmp surefire_0-20250305185437770_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\yousu\OneDrive\Desktop\WRK1\StudentRegistrationManagement\target\test-classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentRegistrationManagement\target\classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagement\target\classes;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\yousu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\yousu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\yousu\.m2\repository\com\jtattoo\JTattoo\1.6.13\JTattoo-1.6.13.jar;C:\Users\yousu\.m2\repository\com\toedter\jcalendar\1.4\jcalendar-1.4.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\yousu\OneDrive\Desktop\WRK1\StudentRegistrationManagement\target\test-classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentRegistrationManagement\target\classes;C:\Users\yousu\.m2\repository\org\example\StudentManagerManagement\1.0-SNAPSHOT\StudentManagerManagement-1.0-SNAPSHOT.jar;C:\Users\yousu\.m2\repository\org\example\StudentManagement\1.0-SNAPSHOT\StudentManagement-1.0-SNAPSHOT.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\yousu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\yousu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\yousu\.m2\repository\com\jtattoo\JTattoo\1.6.13\JTattoo-1.6.13.jar;C:\Users\yousu\.m2\repository\com\toedter\jcalendar\1.4\jcalendar-1.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\yousu"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\yousu\AppData\Local\Temp\surefire5597269491079130731\surefirebooter-20250305145811609_9.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\yousu\AppData\Local\Temp\surefire5463247098655336258\surefirebooter-20250305185437770_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -60,9 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="ResetFormFields" classname="org.example.StudentRegistrationTest" time="0.564"/>
-  <testcase name="StudentRegistration" classname="org.example.StudentRegistrationTest" time="0.113"/>
-  <testcase name="testStudentRegistrationOutput" classname="org.example.StudentRegistrationTest" time="0.137"/>
-  <testcase name="testGetManager" classname="org.example.StudentRegistrationTest" time="0.037"/>
-  <testcase name="testActionListeners" classname="org.example.StudentRegistrationTest" time="0.041"/>
+  <testcase name="ResetFormFields" classname="org.example.StudentRegistrationTest" time="0.515"/>
+  <testcase name="StudentRegistration" classname="org.example.StudentRegistrationTest" time="0.063"/>
+  <testcase name="testStudentRegistrationOutput" classname="org.example.StudentRegistrationTest" time="0.05"/>
+  <testcase name="testGetManager" classname="org.example.StudentRegistrationTest" time="0.03"/>
+  <testcase name="testActionListeners" classname="org.example.StudentRegistrationTest" time="0.015"/>
 </testsuite>
