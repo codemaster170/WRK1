@@ -13,7 +13,8 @@
         <module>StudentManagement</module>
 
         <module>StudentManagerManagement</module>
-        
+
+        <module>StudentRegistrationManagement</module>
      
 
     </modules>

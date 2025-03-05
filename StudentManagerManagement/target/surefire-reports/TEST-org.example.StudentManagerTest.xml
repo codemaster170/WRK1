@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.StudentManagerTest" time="0.088" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.StudentManagerTest" time="0.078" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\test-classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagement\target\classes;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\yousu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\yousu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\test-classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagement\target\StudentManagement-1.0-SNAPSHOT.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\yousu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\yousu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\yousu\AppData\Local\Temp\surefire16530512296351327216\surefirebooter-20250305020153487_6.jar C:\Users\yousu\AppData\Local\Temp\surefire16530512296351327216 2025-03-05T02-01-51_198-jvmRun1 surefire-20250305020153487_4tmp surefire_1-20250305020153487_5tmp"/>
+    <property name="sun.java.command" value="C:\Users\yousu\AppData\Local\Temp\surefire18273620268483546382\surefirebooter-20250305044246332_6.jar C:\Users\yousu\AppData\Local\Temp\surefire18273620268483546382 2025-03-05T04-42-43_503-jvmRun1 surefire-20250305044246332_4tmp surefire_1-20250305044246332_5tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\test-classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagement\target\classes;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\yousu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\yousu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\test-classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagerManagement\target\classes;C:\Users\yousu\OneDrive\Desktop\WRK1\StudentManagement\target\StudentManagement-1.0-SNAPSHOT.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\yousu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\yousu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\yousu\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\yousu"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\yousu\AppData\Local\Temp\surefire16530512296351327216\surefirebooter-20250305020153487_6.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\yousu\AppData\Local\Temp\surefire18273620268483546382\surefirebooter-20250305044246332_6.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -59,9 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="RemoveStudent" classname="org.example.StudentManagerTest" time="0.056"/>
-  <testcase name="GetAllStudents" classname="org.example.StudentManagerTest" time="0.005"/>
-  <testcase name="GetPreviousStudent" classname="org.example.StudentManagerTest" time="0"/>
-  <testcase name="AddStudent" classname="org.example.StudentManagerTest" time="0.008"/>
+  <testcase name="RemoveStudent" classname="org.example.StudentManagerTest" time="0.046"/>
+  <testcase name="GetAllStudents" classname="org.example.StudentManagerTest" time="0"/>
+  <testcase name="GetPreviousStudent" classname="org.example.StudentManagerTest" time="0.014"/>
+  <testcase name="AddStudent" classname="org.example.StudentManagerTest" time="0"/>
   <testcase name="GetNextStudent" classname="org.example.StudentManagerTest" time="0"/>
 </testsuite>
