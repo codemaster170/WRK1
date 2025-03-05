@@ -10,10 +10,7 @@ class StudentRegistrationTest {
 
     public void StudentRegistration() {
 
-  @BeforeAll
-    public static void setUp() {
-        System.setProperty("java.awt.headless", "true");
-    }
+  
 
 
         StudentRegistration registration = new StudentRegistration();
